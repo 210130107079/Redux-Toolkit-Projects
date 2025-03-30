@@ -6,7 +6,6 @@ import { addProductToCart , setProducts } from '../slices/productSlice.js'
 const Shop = () => {
 
     const dispatch = useDispatch()
-    // const [products,setProducts] = useState([])
     const products = useSelector((state)=>state.product.products)
 
     const getProducts = async () => {
